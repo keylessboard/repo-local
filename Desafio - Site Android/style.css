@@ -1,0 +1,204 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap'); /*h1 header*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap'); /*p header, nav header*/
+@font-face {font-family: android; src: url(fontes/idroid.otf) format('opentype');}
+
+:root{
+    --cor0: #ffffff;
+    --cor1: #89c393;
+    --cor2: #00ff8c;
+    --cor3: #046718;
+    --cor4: #63e428;
+    --cor5: #9bf073;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: -1px 0px;
+
+    background: radial-gradient(circle,rgba(174, 238, 202, 1) 0%, rgba(139, 242, 80, 0.778) 100%);
+
+}
+
+/*configurações header*/
+header{
+    background: linear-gradient(var(--cor1),  var(--cor3));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 12px;
+}
+header>h1{
+    color: var(--cor0);
+    font-family: candal;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+}
+header>p{
+    color: var(--cor0);
+    font-family: lexend;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+    max-width: 590px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    width: 95%;
+}
+nav>a{
+    color: var(--cor0);
+    text-decoration: underline;
+    font-family: lexend;
+
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+nav>a:hover{
+    color: var(--cor2);
+    transform: scale(1.20);
+}
+
+#left_link{
+    margin-left: auto;
+}
+/*configurações header*/
+
+
+/*configurações main*/
+main{
+    background-color: var(--cor0);
+    
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.434);
+
+
+    max-width: 1000px;
+}
+article h3{
+    background-image: linear-gradient(45deg, var(--cor4), rgba(0, 0, 0, 0) 80%);
+    font-family: android;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+    padding: 10px;
+    margin-left: 5px;
+}
+main strong{
+    color: #005211;
+}
+main a{
+    background-color: #216a2d;
+    color: #b6ffc2;
+    border-radius: 5px;
+
+    text-decoration: none;
+    padding: 3px 5px;
+}
+main a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+main a::after{
+    content: "\00A0\1F517";
+}
+article h2{
+    display: flex;
+    background-color:  var(--cor5);
+
+    font-family: android;
+    font-size: 2em;
+
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+article>p{
+    font-family: lexend;
+    font-weight: 400;
+    font-size: 1.1em; 
+
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.7em;
+    padding: 15px;
+}
+picture{
+    display: flex;
+    justify-content: center;
+}
+
+/*configurações main*/
+
+/*configurando div do video do youtube*/
+#video_yt{
+    background-color: darkgreen;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    padding: 20px 0px;
+}
+/*configurando div do video do youtube*/
+
+/*div aprender mains*/
+aside{
+    display: flex;
+
+    flex-direction: column;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 50px;
+
+    text-align: justify;
+    padding: 10px;
+}
+#dentro{
+    background-color: greenyellow;
+
+    border-radius: 20px;
+}
+#dentro>p{
+    padding: 10px;
+    text-align: justify;
+}
+aside>div>h4{
+    background-color: rgb(36, 181, 36);
+
+    font-size: 1.2em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0;
+    padding: 10px;
+}
+ul{
+    columns: 2;
+}
+/*div aprender mains*/
+
+/*footer*/
+footer{
+    background-color: rgb(57, 184, 99);
+    text-align: center;
+    font-size: 1.1em;
+}
+/*footer*/
