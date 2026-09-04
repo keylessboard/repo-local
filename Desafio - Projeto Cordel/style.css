@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+}
+:root{
+    --fonte1:  Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", "cursive"; 
+    --fonte3: "Sriracha", "cursive"; 
+
+}
+/*seção header*/
+header{
+    background-color: black;
+    color: white;
+
+    font-family: var(--fonte2);
+    text-align: center;
+    font-size: 4vw;
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+header>h1{
+    margin-bottom: 0.8rem;
+}
+header>p{
+    display: inline;
+}
+header>a, footer>a{
+    color: white;
+    text-decoration: none;
+}
+header>a:hover, footer>a:hover{
+    text-decoration: underline;
+}
+
+/*seção main*/
+.estrofe, .estrofeFoto1>p, .estrofeFoto2>p{
+    font-family: var(--fonte3);
+    font-size: 3.2vw;
+
+    padding: 4vw;
+    line-height: 4vw;
+}
+
+.estrofeFoto1, .estrofeFoto2{
+    background-image: url(imagens/background001.jpg);
+
+    background-attachment: fixed;
+    background-position: center center;
+
+    
+}
+
+.estrofeFoto2{
+    background-image: url(imagens/background002.jpg);
+}
+
+.estrofeFoto1>p, .estrofeFoto2>p{
+    display: inline-block;
+    color: white;
+    
+    background-color: rgb(50, 49, 49);
+
+    border-radius: 10px;
+
+    padding: 1vw;
+    margin: 3.5vw;
+}
+
+/*seção footer*/
+footer{
+    background-color: black;
+    color: white;
+
+
+    font-size: 1.8rem;
+    text-align: center;
+
+    padding: 1.1rem;
+}
+footer>p{
+    display: inline;
+}
