@@ -32,15 +32,16 @@ header>p{
 header>a, footer>a{
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 header>a:hover, footer>a:hover{
     text-decoration: underline;
 }
 
 /*seção main*/
-.estrofe, .estrofeFoto1>p, .estrofeFoto2>p{
+main p{
     font-family: var(--fonte3);
-    font-size: 3.2vw;
+    font-size: clamp(1.3rem, 3.3vw, 3.3vw);
 
     padding: 4vw;
     line-height: 4vw;
