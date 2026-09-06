@@ -10,6 +10,6 @@ t
 
 <hr>
 
-<a href="Desafio - Projeto Cordel.html"> Arquivo HTML do Projeto Cordel </a>
+<a href="Desafio - Projeto Cordel/homepage.html"> Arquivo HTML do Projeto Cordel </a>
 
-<a href="https://keylessboard.github.io/repo-local/Desafio%20-%20Projeto%20Cordel/homepage.html">projeto de site do cordel "Cordel Moderno </a>
+<a href="https://keylessboard.github.io/repo-local/Desafio%20-%20Projeto%20Cordel/homepage.html">projeto de site do cordel "Cordel Moderno" </a>
