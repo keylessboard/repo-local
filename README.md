@@ -13,3 +13,16 @@ t
 <a href="Desafio - Projeto Cordel/homepage.html"> Arquivo HTML do Projeto Cordel </a>
 
 <a href="https://keylessboard.github.io/repo-local/Desafio%20-%20Projeto%20Cordel/homepage.html">projeto de site do cordel "Cordel Moderno" </a>
+
+<hr>
+
+<a href="Desafio - Projeto Social/index.html"> Arquivo HTML do Projeto Cordel </a>
+
+<a href="https://keylessboard.github.io/repo-local/Desafio%20-%20Projeto%Social/index.html">site do projeto de contas sociais</a>
+
+<hr>
+
+<a href="Desafio - Projeto Login/login.html"> Arquivo HTML do Projeto Cordel </a>
+
+<a href="https://keylessboard.github.io/repo-local/Desafio%20-%20Projeto%Login/login.html">site do projeto de página de login</a>
+
