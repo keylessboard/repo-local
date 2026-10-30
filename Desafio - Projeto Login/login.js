@@ -1,0 +1,1 @@
+//aqui está o código para checar o banco de dados de usuários cadastrados

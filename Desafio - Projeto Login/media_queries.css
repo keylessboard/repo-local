@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*para tablets (700px para 950px)*/
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+    body{
+        background-image: url(imagens/gardenscape.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+ 
+
+    }
+    main{
+        display: flex;
+    }
+    div#imagem{
+        background-image: url(imagens/inteiro_transparente.png);
+
+
+        width: 400px;
+        height: 300px;
+        margin-left: -40px;
+        background-size: cover;
+        background-position: center;
+
+    }
+    br{
+        display: none;
+    }
+
+}
+
+/*para computadores (950px para cima)*/
+
+@media screen and (min-width: 901px) {
+    body{
+        background-image: url(imagens/gardenscape.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+
+        padding: 0px;
+        padding-right: 20px;
+        overflow: hidden;
+    }
+
+    div#imagem{
+        background-image: url(imagens/completo.png);
+        background-position: center top;
+
+        background-size: cover;
+
+        width: 800px;
+        height: 400px;
+    }
+    #formulario{
+        padding-left: 10px;
+        width: 80%;
+    }
+}

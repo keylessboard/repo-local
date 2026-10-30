@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mobile_style.css">
+    <link rel="stylesheet" href="media_queries.css">
+    <title>projeto Login</title>
+</head>
+<body>
+    <main>
+        <div id="imagem">
+            <!--Imagem aqui via CSS-->
+        </div>
+
+        <div id="formulario">
+            <h1>BEM-VINDO</h1>
+            <p>Bem-vindo à tela de login! Acesse seu perfil após preencher os dados abaixo.</p>
+
+            <form action="login.js" method="post" autocomplete="on">
+                <div id="form_nome">
+                    <label for="staff_id">Nome de Usuário:</label> <br>
+                    <input type="text" name="staff_nome" id="staff_id" required placeholder="Seu nome de usuário" autocomplete="username">
+                </div>
+                <div id="form_senha">
+                    <label for="senha_id">Senha de Usuário:</label> <br>
+                    <input type="password" name="senha_nome" id="senha_id" required placeholder="Sua senha de usuário"autocomplete="current-password">
+                </div>
+                <div id="enviar_reset">
+                    <input type="submit" value="CONFIRMAR">
+                    <input type="reset" value="LIMPAR">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
