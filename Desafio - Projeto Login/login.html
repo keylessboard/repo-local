@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icones-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <!-- ícones-->
     <link rel="stylesheet" href="mobile_style.css">
     <link rel="stylesheet" href="media_queries.css">
     <title>projeto Login</title>
@@ -19,12 +22,22 @@
 
             <form action="login.js" method="post" autocomplete="on">
                 <div id="form_nome">
-                    <label for="staff_id">Nome de Usuário:</label> <br>
-                    <input type="text" name="staff_nome" id="staff_id" required placeholder="Seu nome de usuário" autocomplete="username">
+                    <label for="staff_id">Identificação do usuário:</label> <br>
+
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span> <!--icone de pessoa-->
+                        <input type="email" name="staff_nome" id="staff_id" required placeholder="Seu login (email) de usuário" autocomplete="email">
+                    </div>
+                
                 </div>
                 <div id="form_senha">
                     <label for="senha_id">Senha de Usuário:</label> <br>
-                    <input type="password" name="senha_nome" id="senha_id" required placeholder="Sua senha de usuário"autocomplete="current-password">
+
+                    <div class="campo">
+                        <span class="material-symbols-outlined">password</span> <!--icone de cadeado-->
+                        <input type="password" name="senha_nome" id="senha_id" required placeholder="Sua senha de usuário"autocomplete="current-password" minlength="10">
+                    </div>
+
                 </div>
                 <div id="enviar_reset">
                     <input type="submit" value="CONFIRMAR">

@@ -51,15 +51,23 @@
 
     div#imagem{
         background-image: url(imagens/completo.png);
-        background-position: center top;
-
+        background-position: center;
         background-size: cover;
 
         width: 800px;
-        height: 400px;
+        height: 500px;
     }
     #formulario{
         padding-left: 10px;
         width: 80%;
+    }
+
+    input[type='submit'], input[type='reset']{
+        background-color: rgb(249, 232, 185);
+        display: inline-block;
+        margin: 10px;
+        width: 44%;
+        padding: 5px;
+        border-radius: 5px;
     }
 }
