@@ -30,4 +30,4 @@ t
 
 <a href="ex036 - menu flex/index.html"> Arquivo HTML do exercício de menu com flexbox </a>
 
-<a href="https://github.com/keylessboard.github.io/repo-local/ex036%20-%20menu%20flex/index.html">site para testar o menu flex</a>
+<a href="https://keylessboard.github.io/repo-local/ex036%20-%20menu%20flex/index.html">site para testar o menu flex</a>
