@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-bottom: 5px;
+
+    display: flex;
+    
+    justify-content:space-between; /*primeiro item do header no começo e ultimo item do header no final*/
+    flex-wrap: wrap;
+
+}
+header h1{
+    flex-basis: 250px;
+    padding: 10px;
+    font-size: 3em;
+    text-shadow: 1px 2px 1px var(--cor1);
+}
+header nav{
+
+    align-content: center; /*centraliza os items do menu no cross axis*/
+
+}
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+header li a {
+    display: block;  /*se você quer que os link encham todo o tamanho do li sem que o padding de overlap em outros elementos, é preciso mudar o display: inline para block*/
+    font-size: 1.2em;
+    padding: 15px;
+    margin: 5px;
+}
+main{
+    width: 97vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+main article {
+    margin-bottom: 30px;
+}

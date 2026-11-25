@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+/* @media screen and (min-width: 600px) {
+    body{
+        background-color: red;
+    }
+} vai fazer a alteração em widths onde a viewport é igual ou maior que 600
+  usado para mobile first. Começando a construção do site de menores telas até chegar nas maiores
+*/
+
+/* @media screen and (max-width: 600px) {
+    body{
+        background-color: red;
+    } 
+} vai fazer a alteração em widths onde a view porte é igual ou menor 600 pixels
+  usado para desktop-first. Construindo o site de maiores telas até chegar nas menores.
+*/
+
+@media screen and (max-width: 360px){ /*entra em efeito quando a tela é igual ou menor que 360px*/
+    main{
+        width: 100vw;
+        padding: 5px;
+        border-radius: 0px;
+    }
+    header, ul{
+        flex-direction: column;
+    }
+    header h1{
+        padding: 15px;
+        flex: 0 0 auto;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+
+    
+    header nav{
+    align-content: center;
+
+    flex-grow: 1;
+    }
+
+    header ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header li{
+        text-align: center;
+        flex-grow: 1;
+    }
+}
