@@ -25,3 +25,9 @@ t
 <a href="Desafio - Projeto Login/login.html"> Arquivo HTML do Projeto de tela de login </a>
 
 <a href="https://keylessboard.github.io/repo-local/Desafio%20-%20Projeto%20Login/login.html">site do projeto de página de login</a>
+
+<hr>
+
+<a href="ex036 - menu flex/index.html"> Arquivo HTML do exercício de menu com flexbox </a>
+
+<a href="https://keylessboard.github.io/repo-local/ex036%20-%menu%20flex/index.html">site para testar o menu flex</a>
